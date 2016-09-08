@@ -38,7 +38,6 @@ banner3：http://www.icourse163.org/
 |-------|-------|
 | 请求方式 | get类型 |
 |请求参数|pageNo ; psize ; type ; |
-
 |请求参数说明|当前页码 ;每页返回数据个数 ;筛选类型（10：产品设计；20：编程语言） ;|
 |返回|课程列表数据（JSON格式字符串，需要转成对象才能在程序中使用）|
 返回数据说明
@@ -66,7 +65,7 @@ banner3：http://www.icourse163.org/
 
 ####2.2	右侧“最热排行”
 |请求地址格式|http://study.163.com /webDev/hotcouresByCategory.htm|
-|-|
+|------|------|
 |请求方式|get类型|
 |请求参数|无|
 |请求参数说明|无|
@@ -87,7 +86,7 @@ banner3：http://www.icourse163.org/
 }]
 ####2.3	导航关注
 |请求地址格式|http://study.163.com /webDev/ attention.htm|
-|-|
+|------|-------|
 |请求方式|get类型|
 |请求参数|无|
 |请求参数说明|无|
@@ -95,7 +94,7 @@ banner3：http://www.icourse163.org/
 |返回数据说明|正确返回1后设置关注cookie（followSuc）|
 ####2.4	用户登录
 |请求地址格式|http://study.163.com /webDev/login.htm|
-|-|
+|------|------|
 |请求方式|get类型|
 |请求参数|userName;password;|
 |请求参数说明|固定用户帐号：studyOnline ;固定用户密码：study.163.com ;使用Md5加密该用户数据 ;|
@@ -103,7 +102,7 @@ banner3：http://www.icourse163.org/
 |返回数据说明|1  //匹配用户名密码成功; 0  //匹配用户名密码失败|
 ####2.5	右侧“机构介绍”视频
 |请求地址|http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4|
-|-|
+|------|-------|
 ###3 要求
 ####3.1	效果要求
 正确还原视觉效果，正确测量大小宽高距离位置等数值，文字边框背景等颜色能正确取色。
