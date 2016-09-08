@@ -12,9 +12,9 @@
 * 登录后“关注”按钮变成不可点的“已关注”状态。按钮的hover效果见视觉稿
 
 ####1.3	顶部右侧导航及内容区各产品的“了解更多”
-点击导航中的“网易公开课”，“网易云课堂”，“中国大学MOOC”，新窗口打开对目的页面，对应的跳转链接如下，点击项的hover效果见视觉稿。点击“了解更多”的跳转链接及打开方式相同。
-网易公开课：http://open.163.com/
-网易云课堂：http://study.163.com/
+点击导航中的“网易公开课”，“网易云课堂”，“中国大学MOOC”，新窗口打开对目的页面，对应的跳转链接如下，点击项的hover效果见视觉稿。点击“了解更多”的跳转链接及打开方式相同。  
+网易公开课：http://open.163.com/   
+网易云课堂：http://study.163.com/   
 中国大学MOOC：http://www.icourse163.org/
 ####1.4	轮播图
 三张轮播图轮播效果：实现每5s切换图片，图片循环播放；鼠标悬停某张图片，则暂停切换；切换效果使用入场图片500ms淡入的方式。点击后新开窗口打开目的页面，对应的跳转链接如下,   
@@ -40,26 +40,26 @@ banner3：http://www.icourse163.org/
 |请求参数|pageNo ; psize ; type ; |
 |请求参数说明|当前页码 ;每页返回数据个数 ;筛选类型（10：产品设计；20：编程语言） ;|
 |返回|课程列表数据（JSON格式字符串，需要转成对象才能在程序中使用）|
-返回数据说明
- 需要显示的字段如下：
- {“totalCount”: 80,//返回的数据总数
- “totalPage”: 8,//返回的数据总页数 
- “pagination”: {
-“pageIndex” : 1, //当前页码
-“pageSize” : 10, //每页的数据个数
-“totlePageCount”: //总页数
-             },
- “list” : [{"id":"967019",//课程ID
- "name":"和秋叶一起学职场技能",//课程名称
- "bigPhotoUrl":"http://img1.ph.126.net/eg62.png",//课程大图
- " middlePhotoUrl ":"http://img1.ph.126.net/eg62.png",//课程中图
- "smallPhotoUrl":" http://img1.ph.126.net/eg62.png ",//课程小图
- " provider ":"秋叶",//机构发布者
- " learnerCount ":"23",//在学人数
- " price ":"128",//课程价格，0为免费
- "categoryName ":"办公技能",//课程分类
- "description ":"适用人群：最适合即将实习、求职、就职的大学生，入职一、二三年的新人。别以为那些职场老人都知道！"//课程描述
-}]
+返回数据说明   
+需要显示的字段如下：   
+{“totalCount”: 80,//返回的数据总数   
+“totalPage”: 8,//返回的数据总页数    
+“pagination”: {   
+“pageIndex” : 1, //当前页码   
+“pageSize” : 10, //每页的数据个数   
+“totlePageCount”: //总页数   
+},   
+“list” : [{"id":"967019",//课程ID   
+"name":"和秋叶一起学职场技能",//课程名称   
+"bigPhotoUrl":"http://img1.ph.126.net/eg62.png",//课程大图   
+" middlePhotoUrl ":"http://img1.ph.126.net/eg62.png",//课程中图   
+"smallPhotoUrl":" http://img1.ph.126.net/eg62.png ",//课程小图   
+" provider ":"秋叶",//机构发布者   
+" learnerCount ":"23",//在学人数   
+" price ":"128",//课程价格，0为免费   
+"categoryName ":"办公技能",//课程分类   
+"description ":"适用人群：最适合即将实习、求职、就职的大学生，入职一、二三年的新人。别以为那些职场老人都知道！"//课程描述   
+}]   
 }
  
 
@@ -70,19 +70,19 @@ banner3：http://www.icourse163.org/
 |请求参数|无|
 |请求参数说明|无|
 |返回|课程列表数据（JSON格式字符串，需要转成数组才能在程序中使用）|
-返回数据说明
-需要显示的字段如下：
-[{
-   "id":"967019",//课程ID
- "name":"和秋叶一起学职场技能",//课程名称
- "bigPhotoUrl":"http://img1.ph.126.net/eg62.png",//课程大图
- "middlePhotoUrl ":"http://img1.ph.126.net/eg62.png",//课程中图
- "smallPhotoUrl":" http://img1.ph.126.net/eg62.png ",//课程小图
- "provider ":"秋叶",//机构发布者
- "learnerCount ":"23",//在学人数
- "price ":"128",//课程价格，0为免费
- "categoryName ":"办公技能",//课程分类
- "description ":"适用人群：最适合即将实习、求职、就职的大学生，入职一、二三年的新人。别以为那些职场老人都知道！"//课程描述
+返回数据说明   
+需要显示的字段如下：    
+[{   
+"id":"967019",//课程ID    
+"name":"和秋叶一起学职场技能",//课程名称   
+"bigPhotoUrl":"http://img1.ph.126.net/eg62.png",//课程大图   
+"middlePhotoUrl ":"http://img1.ph.126.net/eg62.png",//课程中图   
+"smallPhotoUrl":" http://img1.ph.126.net/eg62.png ",//课程小图   
+"provider ":"秋叶",//机构发布者   
+"learnerCount ":"23",//在学人数   
+"price ":"128",//课程价格，0为免费   
+"categoryName ":"办公技能",//课程分类    
+"description ":"适用人群：最适合即将实习、求职、就职的大学生，入职一、二三年的新人。别以为那些职场老人都知道！"//课程描述   
 }]
 ####2.3	导航关注
 |请求地址格式|http://study.163.com /webDev/ attention.htm|
