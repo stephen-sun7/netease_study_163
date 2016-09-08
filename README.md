@@ -34,7 +34,7 @@ banner3：http://www.icourse163.org/
 ###2	前后端交互接口说明
 ####2.1	获取课程列表
 ｜ 请求地址格式 ｜http://study.163.com /webDev/couresByCategory.htm ｜
-｜ -｜－｜
+｜－-－－｜－－－－｜
 ｜请求方式｜get类型｜
 ｜请求参数｜pageNo ; psize ; type ; ｜
 |请求参数说明|当前页码 ;每页返回数据个数 ;筛选类型（10：产品设计；20：编程语言） ;|
