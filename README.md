@@ -35,7 +35,7 @@ banner3：http://www.icourse163.org/
 ####2.1	获取课程列表
 
 ｜ 请求地址格式 ｜ http://study.163.com /webDev/couresByCategory.htm ｜
-｜－-－－｜－－－－｜
+｜-------｜-------｜
 ｜ 请求方式 ｜ get类型 ｜
 ｜请求参数｜pageNo ; psize ; type ; ｜
 
