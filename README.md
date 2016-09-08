@@ -33,7 +33,7 @@ banner3：http://www.icourse163.org/
 根据浏览器窗口宽度，适应两种视觉布局尺寸。窗口宽度<1205时，使用小屏视觉布局；窗口宽度>=1205时，使用大屏视觉布局。布局示意图见视觉效果
 ###2	前后端交互接口说明
 ####2.1	获取课程列表
-| 请求地址格式 |http://study.163.com /webDev/couresByCategory.htm |
+｜ 请求地址格式 ｜｜http://study.163.com /webDev/couresByCategory.htm ｜｜
 | -|
 |请求方式|get类型|
 |请求参数|pageNo ; psize ; type ; |
